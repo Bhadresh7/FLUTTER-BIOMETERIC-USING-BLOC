@@ -100,10 +100,4 @@ TBD — You can add tests in the `test/` directory for unit testing the BLoC and
 
 ---
 
-## 👨‍💻 Author
-
-- Your Name – [@your_handle](https://github.com/your-username)
-
----
-
 > Feel free to fork or star this repo if you find it helpful!
