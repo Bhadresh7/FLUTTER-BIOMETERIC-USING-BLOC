@@ -1,5 +1,5 @@
 import 'package:custom_painting/core/service_locator.dart';
-import 'package:custom_painting/features/biometric/domain/usecases/authenticate_with_biometric.dart';
+import 'package:custom_painting/features/biometric/domain/usecases/authenticate_with_biometric_usecase.dart';
 import 'package:custom_painting/features/biometric/presentation/bloc/biometric_bloc.dart';
 import 'package:custom_painting/features/biometric/presentation/pages/login_with_biometric.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
       title: 'Biometric Auth',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: BlocProvider(
-        create: (_) => BiometricBloc(locator<AuthenticateWithBiometric>()),
+        create:
+            (_) => BiometricBloc(locator<AuthenticateWithBiometricUseCase>()),
         child: const LoginWithBiometric(),
       ),
     );

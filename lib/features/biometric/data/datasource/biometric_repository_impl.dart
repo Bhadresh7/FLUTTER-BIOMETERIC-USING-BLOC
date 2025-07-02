@@ -5,7 +5,7 @@ class BiometricRepositoryImpl implements BiometricRepository {
   final _auth = LocalAuthentication();
 
   @override
-  Future<bool> authenticate() async {
+  Future<bool> authenticateWithFingerPrint() async {
     final isBiometricAvailable = await _auth.canCheckBiometrics;
     if (!isBiometricAvailable) return false;
 
