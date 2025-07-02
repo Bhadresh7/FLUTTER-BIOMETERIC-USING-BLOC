@@ -22,7 +22,8 @@ lib/
 ├── features/
 │   └── biometric/
 │       ├── data/
-│       │   └── biometric_repository_impl.dart
+|       |   └── datasource/
+│       │        └── biometric_repository_impl.dart
 │       ├── domain/
 │       │   ├── repository/biometric_repository.dart
 │       │   └── usecases/authenticate_with_biometric.dart
