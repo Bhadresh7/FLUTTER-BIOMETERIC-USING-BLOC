@@ -1,4 +1,4 @@
-import 'package:custom_painting/features/biometric/data/biometric_repository_impl.dart';
+import 'package:custom_painting/features/biometric/data/datasource/biometric_repository_impl.dart';
 import 'package:custom_painting/features/biometric/domain/repository/biometric_repository.dart';
 import 'package:custom_painting/features/biometric/domain/usecases/authenticate_with_biometric.dart';
 import 'package:get_it/get_it.dart';
